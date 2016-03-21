@@ -91,6 +91,7 @@ install_cask_package steam
 install_cask_package sublime-text
 install_cask_package the-unarchiver
 install_cask_package transmission
+install_cask_package vagrant
 install_cask_package virtualbox
 install_cask_package vlc
 install_cask_package ynab
