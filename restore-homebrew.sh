@@ -69,6 +69,7 @@ install_cask_package 1password
 install_cask_package aerial
 install_cask_package alfred
 install_cask_package atom
+install_cask_package chefdk
 install_cask_package disk-inventory-x
 install_cask_package dropbox
 install_cask_package evernote
