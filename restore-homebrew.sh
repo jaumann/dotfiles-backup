@@ -49,6 +49,7 @@ install_package maven ''
 install_package mpfr ''
 install_package node010 ''
 install_package openssl ''
+install_package packer ''
 install_package pcre ''
 install_package pinentry ''
 install_package pkg-config ''
@@ -83,6 +84,7 @@ install_cask_package java
 install_cask_package minecraft
 install_cask_package mou
 install_cask_package musicbrainz-picard
+install_cask_package packer
 install_cask_package polycom-realpresence-desktop
 install_cask_package sequel-pro
 install_cask_package skitch
