@@ -88,6 +88,7 @@ install_cask_package packer
 install_cask_package polycom-realpresence-desktop
 install_cask_package sequel-pro
 install_cask_package skitch
+install_cask_package skype
 install_cask_package slack
 install_cask_package spotify
 install_cask_package steam
