@@ -8,6 +8,7 @@ brew install $1 $2
 }
 brew tap caskroom/cask
 brew tap homebrew/completions
+brew tap homebrew/core
 brew tap homebrew/versions
 brew tap michaeldfallen/formula
 install_package amazon-ecs-cli ''
