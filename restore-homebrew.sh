@@ -16,7 +16,6 @@ install_package ansible ''
 install_package autoconf ''
 install_package automake ''
 install_package awscli ''
-install_package brew-cask ''
 install_package brew-cask-completion ''
 install_package cloog018 ''
 install_package coreutils ''
@@ -75,7 +74,6 @@ echo EXECUTING: brew cask install $1
 brew cask install $1
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
-install_cask_package Uninstalling brew-cask... (4 files, 7.9K)
 install_cask_package 1password
 install_cask_package aerial
 install_cask_package alfred
