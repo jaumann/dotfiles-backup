@@ -27,11 +27,13 @@ install_package docker-swarm ''
 install_package gcc ''
 install_package gcc49 ''
 install_package gdbm ''
+install_package gettext ''
 install_package git ''
 install_package git-flow ''
 install_package git-radar ''
 install_package gmp ''
 install_package gmp4 ''
+install_package gnu-getopt ''
 install_package gnupg ''
 install_package gnupg2 ''
 install_package go ''
@@ -94,7 +96,9 @@ install_cask_package minecraft
 install_cask_package mou
 install_cask_package musicbrainz-picard
 install_cask_package polycom-realpresence-desktop
+install_cask_package send-to-kindle
 install_cask_package sequel-pro
+install_cask_package silverlight
 install_cask_package skitch
 install_cask_package skype
 install_cask_package slack
