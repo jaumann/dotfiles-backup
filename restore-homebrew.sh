@@ -96,7 +96,6 @@ install_cask_package minecraft
 install_cask_package mou
 install_cask_package musicbrainz-picard
 install_cask_package polycom-realpresence-desktop
-install_cask_package send-to-kindle
 install_cask_package sequel-pro
 install_cask_package silverlight
 install_cask_package skitch
