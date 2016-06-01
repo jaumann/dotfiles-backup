@@ -79,6 +79,7 @@ install_cask_package alfred
 install_cask_package atom
 install_cask_package calibre
 install_cask_package chefdk
+install_cask_package cyberduck
 install_cask_package disk-inventory-x
 install_cask_package dropbox
 install_cask_package evernote
