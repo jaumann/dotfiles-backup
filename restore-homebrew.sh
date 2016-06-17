@@ -66,6 +66,7 @@ install_package readline ''
 install_package sqlite ''
 install_package thefuck ''
 install_package wget ''
+install_package xz ''
 install_package zsh ''
 install_package zsh-completions ''
 function install_cask_package() {
