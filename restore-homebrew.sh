@@ -12,6 +12,7 @@ brew tap homebrew/core
 brew tap homebrew/versions
 brew tap michaeldfallen/formula
 install_package amazon-ecs-cli ''
+install_package android-platform-tools ''
 install_package ansible ''
 install_package autoconf ''
 install_package automake ''
