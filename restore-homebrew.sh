@@ -7,8 +7,28 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated 1 tap (homebrew/core).
-brew tap No changes to formulae.
+brew tap Updated 2 taps (homebrew/completions, homebrew/core).
+brew tap ==> Updated Formulae
+brew tap apr
+brew tap apr-util
+brew tap artifactory
+brew tap chisel
+brew tap git-cola
+brew tap homebrew/completions/docker-completion
+brew tap iso-codes
+brew tap jsonschema2pojo
+brew tap monkeysphere
+brew tap node
+brew tap node-build
+brew tap pandoc-crossref
+brew tap pango
+brew tap rethinkdb
+brew tap riemann
+brew tap vim
+brew tap xmake
+brew tap ==> Deleted Formulae
+brew tap dircproxy
+brew tap lastfmlib
 brew tap caskroom/cask
 brew tap homebrew/completions
 brew tap homebrew/core
