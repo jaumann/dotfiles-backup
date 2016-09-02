@@ -7,8 +7,12 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated Homebrew from 6622b56 to 8bb3dda.
-brew tap No changes to formulae.
+brew tap Updated 2 taps (homebrew/completions, homebrew/core).
+brew tap ==> Updated Formulae
+brew tap awscli
+brew tap deheader
+brew tap gtk-gnutella
+brew tap homebrew/completions/django-completion
 brew tap caskroom/cask
 brew tap homebrew/completions
 brew tap homebrew/core
