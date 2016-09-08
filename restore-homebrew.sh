@@ -7,9 +7,22 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
+brew tap Updated Homebrew from 9586390 to 495419a.
 brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap syncthing
+brew tap artifactory
+brew tap azure-cli
+brew tap go
+brew tap graphicsmagick
+brew tap gtkextra
+brew tap influxdb
+brew tap lean-cli
+brew tap mercurial
+brew tap pidcat
+brew tap pypy
+brew tap sane-backends
+brew tap telegraf
+brew tap todolist
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
