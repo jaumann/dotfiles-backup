@@ -7,22 +7,41 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated Homebrew from 9586390 to 495419a.
-brew tap Updated 1 tap (homebrew/core).
+brew tap Updated Homebrew from 495419a to aaf8c41.
+brew tap Updated 2 taps (homebrew/core, homebrew/versions).
+brew tap ==> New Formulae
+brew tap apache-zeppelin
+brew tap libuninameslist
+brew tap liquigraph
+brew tap timewarrior
 brew tap ==> Updated Formulae
-brew tap artifactory
-brew tap azure-cli
-brew tap go
-brew tap graphicsmagick
-brew tap gtkextra
-brew tap influxdb
-brew tap lean-cli
-brew tap mercurial
-brew tap pidcat
-brew tap pypy
-brew tap sane-backends
-brew tap telegraf
-brew tap todolist
+brew tap aws-sdk-cpp
+brew tap awscli
+brew tap cask
+brew tap ccache
+brew tap cli53
+brew tap cmake
+brew tap darcs
+brew tap fleetctl
+brew tap fwup
+brew tap gdm
+brew tap git-annex
+brew tap gron
+brew tap heroku
+brew tap homebrew/versions/rebar3
+brew tap hub
+brew tap imagemagick
+brew tap jsdoc3
+brew tap libgetdata
+brew tap libphonenumber
+brew tap libpng
+brew tap libspiro
+brew tap mapnik
+brew tap platformio
+brew tap pngcrush
+brew tap yadm
+brew tap youtube-dl
+brew tap zsh-completions
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
