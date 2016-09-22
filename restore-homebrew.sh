@@ -6,11 +6,15 @@ echo EXECUTING: brew install $1 $2
 brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
+brew tap Checking out v1.0.1 in /usr/local/Homebrew...
+brew tap To checkout v1.0.1 in /usr/local/Homebrew run:
+brew tap 'cd /usr/local/Homebrew && git checkout v1.0.1
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap diff-so-fancy
-brew tap tarantool
+brew tap irssi
+brew tap openssl
+brew tap openssl@1.1
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
@@ -84,8 +88,6 @@ echo EXECUTING: brew cask install $1
 brew cask install $1
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
-install_cask_package ==> Migrating cached files to /Users/jaumann/Library/Caches/Homebrew/Cask...
-install_cask_package /Users/jaumann/Library/Caches/Homebrew/cyberduck-5.0.9.20675.zip -> /Users/jaumann/Library/Caches/Homebrew/Cask/cyberduck--5.0.9.20675.zip
 install_cask_package 1password
 install_cask_package aerial
 install_cask_package alfred
