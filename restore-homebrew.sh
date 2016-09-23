@@ -6,15 +6,18 @@ echo EXECUTING: brew install $1 $2
 brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
-brew tap Checking out v1.0.1 in /usr/local/Homebrew...
-brew tap To checkout v1.0.1 in /usr/local/Homebrew run:
-brew tap 'cd /usr/local/Homebrew && git checkout v1.0.1
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated 1 tap (homebrew/core).
+brew tap Updated 2 taps (homebrew/completions, homebrew/core).
 brew tap ==> Updated Formulae
-brew tap irssi
-brew tap openssl
+brew tap cromwell
+brew tap gitlab-ci-multi-runner
+brew tap homebrew/completions/docker-compose-completion
+brew tap kobalt
+brew tap mesos
 brew tap openssl@1.1
+brew tap parallel
+brew tap protobuf-swift
+brew tap repo
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
