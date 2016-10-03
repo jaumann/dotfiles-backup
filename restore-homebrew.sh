@@ -6,6 +6,29 @@ echo EXECUTING: brew install $1 $2
 brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
+brew tap ==> Auto-updated Homebrew!
+brew tap Updated 1 tap (homebrew/core).
+brew tap ==> New Formulae
+brew tap amqp-cpp
+brew tap ==> Updated Formulae
+brew tap caddy
+brew tap castxml
+brew tap fontforge
+brew tap glide
+brew tap jenkins
+brew tap jsoncpp
+brew tap libjson-rpc-cpp
+brew tap midnight-commander
+brew tap mlogger
+brew tap openhmd
+brew tap osquery
+brew tap purescript
+brew tap riemann-client
+brew tap rocksdb
+brew tap sysdig
+brew tap terminal-notifier
+brew tap uwsgi
+brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
 brew tap homebrew/core
