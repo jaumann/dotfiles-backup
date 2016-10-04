@@ -8,26 +8,12 @@ brew install $1 $2
 }
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
-brew tap ==> New Formulae
-brew tap amqp-cpp
 brew tap ==> Updated Formulae
-brew tap caddy
-brew tap castxml
-brew tap fontforge
-brew tap glide
-brew tap jenkins
-brew tap jsoncpp
-brew tap libjson-rpc-cpp
-brew tap midnight-commander
-brew tap mlogger
-brew tap openhmd
-brew tap osquery
-brew tap purescript
-brew tap riemann-client
-brew tap rocksdb
-brew tap sysdig
+brew tap dvm
+brew tap jfrog-cli-go
+brew tap llnode
 brew tap terminal-notifier
-brew tap uwsgi
+brew tap zstd
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
