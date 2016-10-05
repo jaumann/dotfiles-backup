@@ -7,13 +7,14 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated 1 tap (homebrew/core).
+brew tap Updated 2 taps (homebrew/core, homebrew/versions).
 brew tap ==> Updated Formulae
-brew tap dvm
-brew tap jfrog-cli-go
-brew tap llnode
-brew tap terminal-notifier
-brew tap zstd
+brew tap bind
+brew tap irrlicht
+brew tap peco
+brew tap yaz
+brew tap ==> Deleted Formulae
+brew tap homebrew/versions/coq83
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
