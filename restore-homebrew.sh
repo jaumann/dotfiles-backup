@@ -7,9 +7,11 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated 1 tap (homebrew/core).
+brew tap Updated 2 taps (homebrew/core, homebrew/versions).
 brew tap ==> Updated Formulae
-brew tap imagemagick
+brew tap chapel
+brew tap crystal-lang
+brew tap homebrew/versions/jenkins-lts
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
