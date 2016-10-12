@@ -7,11 +7,12 @@ brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
 brew tap ==> Auto-updated Homebrew!
-brew tap Updated 2 taps (homebrew/core, homebrew/versions).
+brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap chapel
-brew tap crystal-lang
-brew tap homebrew/versions/jenkins-lts
+brew tap bitrise
+brew tap git-credential-manager
+brew tap git-lfs
+brew tap gofabric8
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
@@ -88,9 +89,9 @@ brew cask install $1
 install_cask_package 1password
 install_cask_package aerial
 install_cask_package alfred
-install_cask_package atom
 install_cask_package calibre
 install_cask_package chefdk
+install_cask_package colloquy
 install_cask_package cyberduck
 install_cask_package disk-inventory-x
 install_cask_package dropbox
