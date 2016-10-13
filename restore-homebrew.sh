@@ -9,10 +9,7 @@ brew install $1 $2
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap bitrise
-brew tap git-credential-manager
-brew tap git-lfs
-brew tap gofabric8
+brew tap artifactory
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
@@ -89,6 +86,7 @@ brew cask install $1
 install_cask_package 1password
 install_cask_package aerial
 install_cask_package alfred
+install_cask_package atom
 install_cask_package calibre
 install_cask_package chefdk
 install_cask_package colloquy
