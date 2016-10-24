@@ -9,8 +9,7 @@ brew install $1 $2
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap conan
-brew tap node
+brew tap aurora-cli
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
