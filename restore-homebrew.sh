@@ -9,7 +9,7 @@ brew install $1 $2
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap aurora-cli
+brew tap mitmproxy
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
