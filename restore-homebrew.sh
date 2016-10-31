@@ -6,6 +6,82 @@ echo EXECUTING: brew install $1 $2
 brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
+brew tap ==> Auto-updated Homebrew!
+brew tap Updated 3 taps (homebrew/completions, homebrew/core, homebrew/versions).
+brew tap ==> New Formulae
+brew tap homebrew/versions/elasticsearch24
+brew tap homebrew/versions/gradle214
+brew tap homebrew/versions/grails31
+brew tap neatvi
+brew tap osmfilter
+brew tap pacparser
+brew tap urbit
+brew tap willgit
+brew tap ==> Updated Formulae
+brew tap algernon
+brew tap archi-steam-farm
+brew tap argon2
+brew tap aws-apigateway-importer
+brew tap bashdb
+brew tap bib-tool
+brew tap cabal-install
+brew tap chaiscript
+brew tap checkstyle
+brew tap convox
+brew tap coq
+brew tap dar
+brew tap dc3dd
+brew tap dmd
+brew tap esniper
+brew tap feedgnuplot
+brew tap ffmpeg
+brew tap flow
+brew tap folly
+brew tap format-udf
+brew tap geoserver
+brew tap ghc
+brew tap git
+brew tap gitbucket
+brew tap gofabric8
+brew tap govendor
+brew tap heroku
+brew tap hg-fast-export
+brew tap homebrew/completions/docker-completion
+brew tap httpstat
+brew tap kubernetes-cli
+brew tap libbtbb
+brew tap libdivecomputer
+brew tap m-cli
+brew tap macvim
+brew tap makepkg
+brew tap mighttpd2
+brew tap mpv
+brew tap nats-streaming-server
+brew tap ncmpcpp
+brew tap ncrack
+brew tap offlineimap
+brew tap osrm-backend
+brew tap paket
+brew tap peco
+brew tap plowshare
+brew tap pngcrush
+brew tap rancher-cli
+brew tap sbcl
+brew tap sbt
+brew tap sngrep
+brew tap stout
+brew tap terragrunt
+brew tap vim
+brew tap youtube-dl
+brew tap yubico-piv-tool
+brew tap zurl
+brew tap ==> Deleted Formulae
+brew tap homebrew/versions/elasticsearch23
+brew tap homebrew/versions/gradle221
+brew tap homebrew/versions/gradle27
+brew tap homebrew/versions/gradle28
+brew tap homebrew/versions/grails24
+brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
 brew tap homebrew/core
