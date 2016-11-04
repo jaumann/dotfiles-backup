@@ -6,6 +6,17 @@ echo EXECUTING: brew install $1 $2
 brew install $1 $2
 [ $? -ne 0 ] && $failed_items="$failed_items $1"  # package failed to install.
 }
+brew tap ==> Auto-updated Homebrew!
+brew tap Updated 1 tap (homebrew/core).
+brew tap ==> Updated Formulae
+brew tap cmake
+brew tap globus-toolkit
+brew tap ripgrep
+brew tap subnetcalc
+brew tap texmath
+brew tap ==> Deleted Formulae
+brew tap tlassemble
+brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
 brew tap homebrew/core
