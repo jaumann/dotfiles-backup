@@ -8,8 +8,10 @@ brew install $1 $2
 }
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
+brew tap ==> New Formulae
+brew tap mfterm
 brew tap ==> Updated Formulae
-brew tap webkitgtk
+brew tap wdc
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
@@ -61,6 +63,7 @@ install_package mpfr2 ''
 install_package node010 ''
 install_package oniguruma ''
 install_package openssl ''
+install_package openssl@1.1 ''
 install_package packer ''
 install_package pcre ''
 install_package phantomjs ''
