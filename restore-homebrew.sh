@@ -9,16 +9,7 @@ brew install $1 $2
 brew tap ==> Auto-updated Homebrew!
 brew tap Updated 1 tap (homebrew/core).
 brew tap ==> Updated Formulae
-brew tap advancecomp
-brew tap calabash
-brew tap graphite2
-brew tap libexosip
-brew tap libosip
-brew tap oniguruma
-brew tap quazip
-brew tap qxmpp
-brew tap vim
-brew tap voldemort
+brew tap libxml++3
 brew tap 
 brew tap caskroom/cask
 brew tap homebrew/completions
