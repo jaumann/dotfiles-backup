@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws brew common-aliases docker git-flow mvn osx pip rvm sublime sudo)
+plugins=(git aws brew common-aliases docker git-flow mvn osx pip rvm sublime sudo terraform)
 
 # User configuration
 
@@ -83,4 +83,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias sshBastion="ssh core@bastion-ops.aws.ua-ecm.com"
+
+eval $(thefuck --alias)
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:/opt/local/bin" # Add macports to path
