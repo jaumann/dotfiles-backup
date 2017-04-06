@@ -87,5 +87,7 @@ alias sshBastion="ssh core@bastion-ops.aws.ua-ecm.com"
 
 eval $(thefuck --alias)
 
+export GPG_TTY=`tty`
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:/opt/local/bin" # Add macports to path
