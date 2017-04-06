@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Jon Aumann
+#	email = jaumann@underarmour.com
+[user]
+	name = Jon Aumann
+	email = jaumann@underarmour.com
+	signingkey = 687E8703
+[core]
+	excludesfile = /Users/jaumann/.gitignore_global
+[alias]
+	undo = reset --soft HEAD^
+	prune = fetch --prune
+	stash-all = stash save --include-untracked
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
