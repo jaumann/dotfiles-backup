@@ -53,7 +53,6 @@ plugins=(git aws brew common-aliases docker git-flow mvn osx pip rvm sublime sud
 
 # User configuration
 
-export PATH="$PATH:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jaumann/.rvm/bin:/usr/local/dev-env/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -86,8 +85,13 @@ source $ZSH/oh-my-zsh.sh
 alias sshBastion="ssh core@bastion-ops.aws.ua-ecm.com"
 
 eval $(thefuck --alias)
+eval $(hub alias -s)
 
 export GPG_TTY=`tty`
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export GOPATH="${HOME}/projects/go"
+export PATH="${GOPATH}/bin:${PATH}"
 export PATH="$PATH:/opt/local/bin" # Add macports to path
+export GITHUB_HOST=github.ua.com
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
