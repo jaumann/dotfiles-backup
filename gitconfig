@@ -14,7 +14,7 @@
 	prune = fetch --prune
 	stash-all = stash save --include-untracked
 [gpg]
-	program = gpg2
+	program = gpg1
 [commit]
 	gpgsign = true
 [hub]
